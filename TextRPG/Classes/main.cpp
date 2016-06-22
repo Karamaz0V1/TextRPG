@@ -326,7 +326,7 @@ bool CheckIfRestartGame ()
 
 	if (continueKey == 'C')
 	{
-		system ("cls");
+		system ("clear");
 		return true;
 	}
 
@@ -352,7 +352,7 @@ int main ()
 	cout << "Congratulations ! Thou finisheth the demo !" << endl << endl;
 	cout << "Don't hesitate to give the project a look at \"github.com/TNTantoine/TextRPG \"" << endl;
 	cout << "If you have ideas to improve the game, don't hesitate to do a fork !" << endl << endl;
-	system ("PAUSE");
+	//system ("PAUSE");
 
 	return 0;
 }

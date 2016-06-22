@@ -5,7 +5,7 @@ CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
 add_compile_options("$<$<CONFIG:DEBUG>:-Wall>")
 
 SET(SRC
-    Arme.cpp
+    Weapon.cpp
     Character.cpp
     Robber.cpp
     Warrior.cpp
@@ -13,7 +13,7 @@ SET(SRC
     )
 
 SET(HDR
-    Arme.h
+    Weapon.h
     Character.h
     Robber.h
     Warrior.h
